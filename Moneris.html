@@ -24,7 +24,7 @@ How to test Moneris Hosted Paypage Configuration
  <!--MORE OPTIONAL VARIABLES CAN BE DEFINED HERE -->
  <INPUT TYPE="HIDDEN" NAME="cust_id" VALUE="55390204">
  <INPUT TYPE="HIDDEN" NAME="email" VALUE="noreply@i88.ca">
- <INPUT TYPE="SUBMIT" NAME="SUBMIT" VALUE="Click to proceed to Secure Page">
+ <INPUT TYPE="SUBMIT" NAME="SUBMIT" VALUE="Click to proceed to Moneris Secure Page with cust_id">
 </FORM>
   <div class="wrapper">
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -38,5 +38,16 @@ How to test Moneris Hosted Paypage Configuration
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
   </div>
+  <FORM METHOD="POST" ACTION=https://esqa.moneris.com/HPPDP/index.php>
+ <INPUT TYPE="HIDDEN" NAME="ps_store_id" VALUE="RAJB7tore2">
+ <INPUT TYPE="HIDDEN" NAME="hpp_key" VALUE="hpXN8EFMJO8L">
+ <INPUT TYPE="HIDDEN" NAME="charge_total" VALUE="1.00">
+
+ <!--MORE OPTIONAL VARIABLES CAN BE DEFINED HERE -->
+
+ <INPUT TYPE="HIDDEN" NAME="email" VALUE="noreply@itrac.it">
+ <INPUT TYPE="SUBMIT" NAME="SUBMIT" VALUE="Click to proceed to Moneris Secure Page with email">
+</FORM>
+  
 </body>
 </html>
